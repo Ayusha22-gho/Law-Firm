@@ -1,0 +1,37 @@
+.hero-section {
+    padding: 120px 153px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.hero-intro {
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--white);
+    width: 30vw;
+    
+}
+.divider {
+ border-left: 2px solid #6A6A6A;
+  height: 206px;
+
+}
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+   
+}
+.hero-info-heading {
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+  
+}
+.hero-info-para {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    opacity: 50%;
+    width: 475px;
+}
