@@ -1,0 +1,43 @@
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 53px 153px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    height: 30px;
+
+}
+.menu-items p {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+.menu-items p:hover {
+    background-color: var(--grey);
+    cursor: pointer;
+}
+
+.contact-button {
+    border: white 2px solid;
+    padding: 10px;
+}
+.contact-button p{
+    font-weight: 600;
+}
+.contact-button:hover {
+    background-color: var(--grey);
+    cursor: pointer;
+}
