@@ -1,0 +1,33 @@
+.practice-container{
+    padding: 53px 153px;
+}
+
+.practice-heading {
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+}
+.practice-grid {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.practice-image {
+    position: relative;
+   
+}
+.practice-image img {
+    width: 100%;
+   
+}
+.practice-image p {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+
+}
