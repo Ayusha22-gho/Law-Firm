@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Card from './components/Cards'
 import Practice from './components/Practice'
 import Clients from './components/Clients'
+import Team from './components/Team'
 import axios from 'axios';
 import { useState,useEffect } from 'react'
 function App() {
@@ -10,9 +11,9 @@ function App() {
 
   const performCall = async () => {
     try {
-      const response = await axios.get("https://reqres.in/api/users/");
-      console.log(response.data.data);
-      setClientsData(response.data.data);
+      const response = await axios.get("https://mocki.io/v1/d914cc82-ec05-41f9-ab1c-b57250e474a1");
+      console.log(response.data);
+      setClientsData(response.data);
     } catch (e) {
       throw console.error(e.response);
     }
@@ -28,6 +29,7 @@ function App() {
       <Card />
       <Practice/>
       <Clients clientsData ={clientsData}/>
+      <Team clientsData = {clientsData}/>
     </div>
   );
 }
