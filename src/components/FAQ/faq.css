@@ -1,0 +1,21 @@
+.faq-container{
+    padding: 53px 153px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+  
+}
+.faq-label{
+     font-size: 54px;
+    font-weight: 600;
+}
+.faq-content{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 30%;
+}
+.faq-accordian {
+    width: 50%;
+    margin-top: 5%
+
+}

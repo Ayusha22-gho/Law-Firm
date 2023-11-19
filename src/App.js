@@ -4,6 +4,7 @@ import Card from './components/Cards'
 import Practice from './components/Practice'
 import Clients from './components/Clients'
 import Team from './components/Team'
+import FAQ from './components/FAQ'
 import axios from 'axios';
 import { useState,useEffect } from 'react'
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Practice/>
       <Clients clientsData ={clientsData}/>
       <Team clientsData = {clientsData}/>
+      <FAQ/>
     </div>
   );
 }
