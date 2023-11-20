@@ -6,6 +6,7 @@ import Clients from './components/Clients'
 import Team from './components/Team'
 import FAQ from './components/FAQ'
 import Subscribe from './components/Subscribe'
+import Footer from './components/Footer'
 import axios from 'axios';
 import { useState,useEffect } from 'react'
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Team clientsData = {clientsData}/>
       <FAQ/>
       <Subscribe/>
+      <Footer />
     </div>
   );
 }
